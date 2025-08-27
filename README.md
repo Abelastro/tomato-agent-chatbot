@@ -35,7 +35,7 @@ cp .env.example .env
 # then edit .env and set OPENAI_API_KEY
 ```
 
-### 3) Seed knowledge &极 build the vector store
+### 3) Seed knowledge & build the vector store
 ```bash
 python scripts/seed_knowledge.py     # writes markdown knowledge files into ./knowledge
 python scripts/ingest.py             # builds ./vectorstore using FAISS
