@@ -121,11 +121,4 @@ The system now includes full CNN image analysis integration:
 - **Confidence-based filtering** (70% threshold)
 - **Seamless context injection** into RAG responses
 
-## 📤 Publish to GitHub
-```bash
-git init
-git add .
-git commit -m "Tomato disease multi-agent system: RAG + CNN integration"
-git branch -M main
-git remote add origin <YOUR-REPO-URL>
-git push -u origin main
+
